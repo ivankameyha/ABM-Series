@@ -39,6 +39,7 @@ namespace AdmSeries.Clases
         {
             try
             {
+                // Creación de una instancia de la clase de conexión
                 ClassConexion objetoConexion = new ClassConexion();
 
                 string query = "INSERT INTO Series (titulo, descripcion, fechaEstreno, estrellas, genero, precioAlquiler, atp, estado) VALUES (@titulo, @descripcion, @fechaEstreno, @estrellas, @genero, @precioAlquiler, @atp, @estado)";
@@ -53,6 +54,7 @@ namespace AdmSeries.Clases
                 myCommand.Parameters.AddWithValue("@atp", atp);
                 myCommand.Parameters.AddWithValue("@estado", estado);
 
+                // método se utiliza para realizar operaciones de inserción, actualización o eliminación en la base de datos
                 myCommand.ExecuteNonQuery(); 
 
                 MessageBox.Show("Se guardaron los datos correctamente");

@@ -48,6 +48,7 @@
             this.txtServidor.Name = "txtServidor";
             this.txtServidor.Size = new System.Drawing.Size(159, 20);
             this.txtServidor.TabIndex = 0;
+            this.txtServidor.Text = "localhost";
             // 
             // label1
             // 
@@ -83,6 +84,7 @@
             this.txtPuerto.Name = "txtPuerto";
             this.txtPuerto.Size = new System.Drawing.Size(159, 20);
             this.txtPuerto.TabIndex = 3;
+            this.txtPuerto.Text = "3306";
             // 
             // label3
             // 
@@ -99,6 +101,7 @@
             this.txtBaseDatos.Name = "txtBaseDatos";
             this.txtBaseDatos.Size = new System.Drawing.Size(159, 20);
             this.txtBaseDatos.TabIndex = 5;
+            this.txtBaseDatos.Text = "admseries";
             // 
             // label4
             // 
@@ -115,6 +118,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(159, 20);
             this.txtUsuario.TabIndex = 7;
+            this.txtUsuario.Text = "root";
             // 
             // label5
             // 
